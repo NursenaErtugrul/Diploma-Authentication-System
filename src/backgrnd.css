@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #f08e70, #e96296, #66c0e1, #68db5d);
+	background-size: 500% 500%;
+	animation: animeBG 30s ease infinite;
+	animation-direction: alternate;
+}
+
+@keyframes animeBG {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}

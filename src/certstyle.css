@@ -1,0 +1,58 @@
+.cert {
+  height: 110vh;
+  background: url("cert.png") no-repeat;
+  background-size: cover;
+  margin-left: 150px;
+}
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #f08e70, #e96296, #66c0e1, #68db5d);
+	background-size: 500% 500%;
+	animation: animeBG 30s ease infinite;
+	animation-direction: alternate;
+}
+
+@keyframes animeBG {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.pc {
+  width: 200vh;
+  background-size: cover;
+}
+#fname {
+  font-size: 55px;
+  padding-top: 315px;
+  padding-left: 20px;
+}
+
+#snumber {
+  font-size: 23px;
+  margin-top: -20px;
+  margin-left: 680px;
+  font-weight: bold;
+}
+#departman {
+  font-size: 23px;
+  margin-top: 49px;
+  margin-left: -585px;
+  font-weight: bold;
+}
+
+#txh {
+  margin-top: 170px;
+  margin-left: -280px;
+}
+
+#id {
+  font-size: 23px;
+  margin-top: 80px;
+  margin-left: 255px;
+}
+
+.btn {
+  margin-top: 10px;
+}
